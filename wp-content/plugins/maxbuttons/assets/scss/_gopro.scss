@@ -1,0 +1,103 @@
+/* General */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+&.maxbuttons-pro-gopro
+{
+	* {
+		box-sizing: border-box;
+	}
+	.page-title-action.max-btn { 
+		font-size: 16px; 
+		display: inline-block;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		background-color: #86c5c2;
+		border-bottom-color: #72a3a8;
+		padding: 5px 20px; 
+		
+	} 
+	.main { 
+		float: none;
+		width: 90%;
+	//	max-width: 1000px;
+		position: relative; 
+		line-height: 1.42857; 
+		
+		p { font-size: 17px; } 
+	}
+}
+.container { 
+	//max-width: 800px; 
+	width: 100%;
+	
+}
+
+.wrapper-inner { 
+	h2 { font-size: 30px;
+		 line-height: 1.1;
+	 } 
+}
+
+.wrapper-inner .section {text-align: center; padding: 30px 0 40px;}
+.wrapper-inner .section:nth-child(even) {background-color: #fff;}
+.wrapper-inner .section:nth-child(odd) {background-color: #f7f7f7;}
+  .wrapper-inner .section h2 {color: #87c5c1;  font-family: 'Quicksand';  font-weight: bold;}
+  .wrapper-inner .section img {margin: 0 auto}
+
+.section1 .rating {border: 2px solid #d8d8d8; border-radius: 25px; width: 40%; margin: 20px auto; padding: 20px;}
+  .section1 .rating .stars {margin-bottom: 15px;}
+  .section1 .rating p {margin: 0; font-size: 22px; font-weight: bold;}
+
+.section2 .col {margin-top: 30px; margin-bottom: 30px;}
+  .section2 .col img {margin: 0 auto 20px; cursor: pointer;}
+  .section2 .col p {margin: 0; color: #fd8d61; font-weight: bold;}
+
+.section3 .price {background: url('../../images/gopro/price-bg.png') no-repeat; height: 133px; width: 133px; color: #fff; font-size: 50px; font-family: 'Quicksand', sans-serif; font-weight: bold; padding: 25px; margin: 10px; line-height:1.42857;}
+.section3 .max-btn {font-size: 32px; line-height:1.42857; text-decoration: none;}
+
+.section4 h2 {margin-bottom: 30px;}
+.section4 img {border: 2px solid #d8d8d8; border-radius: 25px; padding: 20px;}
+
+.section5 .col, .section6 .col {margin: 30px 0; border: 2px solid #d7d7d7; border-radius: 10px; background-color: #fff; padding: 20px;}
+
+.section7 img {margin-top: 20px;}
+
+.section8 h2 {margin-bottom: 30px;}
+.section8 .max-btn {font-size: 32px; text-decoration: none; }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Additional */
+.block {display: block;}
+.inline-block {display: inline-block;}
+.none {display: none;}
+
+.absolute {position: absolute;}
+.relative {position: relative;}
+
+.italic {  font-style: italic;}
+.bold {font-weight: bold;}
+
+.max-btn {color: #fff; text-transform: uppercase; background-color: #fd8d61; border-bottom: 6px solid #ef6f2a; border-radius: 6px; padding: 8px 35px;  font-family: 'Quicksand';  font-weight: bold; transition: all linear .2s;}
+.max-btn:hover {box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5); color: #fff; text-decoration: none;}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Small devices (desktops, less 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .header .header-top .max-btn {margin: 5px 0;}
+}
+
+/* Small devices (tablets, less 768px) */
+@media (max-width: 768px) {
+  .header .header-top .max-btn {margin: 10px 0;}
+  .header .header-top img {float: none !important;}
+  .header .navbar {text-align: center;}
+  .header .navbar li a {border: none;}
+
+  .section1 .rating {width: 80%;}
+
+  .section5 .col img,   .section6 .col img {width: auto}
+}
